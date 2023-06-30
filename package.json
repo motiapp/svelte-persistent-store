@@ -62,7 +62,7 @@
         "test": "testcafe all tests/e2e.ts --app 'npx sirv tests --port 5000'",
         "prebuild": "tsc",
         "build": "rollup -c",
-        "prepublishOnly": "npm run build"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
